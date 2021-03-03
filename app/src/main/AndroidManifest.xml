@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinFlows">
-        <activity android:name=".FlowConflateOperator">
+        <activity android:name=".FlowCollectLatestOperator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

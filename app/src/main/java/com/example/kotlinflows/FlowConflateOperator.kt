@@ -10,6 +10,9 @@ import kotlinx.coroutines.runBlocking
 import timber.log.Timber
 import kotlin.system.measureTimeMillis
 
+/**
+ * Conflation is used when receiver and producer both are slow.
+ */
 class FlowConflateOperator : BaseActivity() {
 
     fun log(msg: String) = Timber.d("[${Thread.currentThread().name}] $msg")
@@ -26,13 +29,14 @@ class FlowConflateOperator : BaseActivity() {
                         log("Value : $value")
                     }
             }
+            println("Collected in $time ms")
         }
 
     }
 
     fun simple(): Flow<Int> = flow {
 
-        for (i in 1..3) {
+        for (i in 1..12) {
             delay(100)
             log("Emitting $i")
             emit(i)
