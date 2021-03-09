@@ -1,6 +1,7 @@
-package com.example.kotlinflows
+package com.example.kotlinflows.exceptions
 
 import android.os.Bundle
+import com.example.kotlinflows.ui.base.BaseActivity
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.runBlocking
 import timber.log.Timber

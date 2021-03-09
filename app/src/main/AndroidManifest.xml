@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinFlows">
-        <activity android:name=".FlowExceptionEncapsulationWithoutTryCatch">
+        <activity android:name=".exceptions.FlowExceptionEncapsulationWithoutTryCatch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

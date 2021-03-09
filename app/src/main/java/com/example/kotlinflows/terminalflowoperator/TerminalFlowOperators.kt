@@ -1,6 +1,7 @@
-package com.example.kotlinflows
+package com.example.kotlinflows.terminalflowoperator
 
 import android.os.Bundle
+import com.example.kotlinflows.ui.base.BaseActivity
 import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.reduce

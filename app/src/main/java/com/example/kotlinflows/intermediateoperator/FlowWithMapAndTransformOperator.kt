@@ -1,10 +1,10 @@
-package com.example.kotlinflows
+package com.example.kotlinflows.intermediateoperator
 
 import android.os.Bundle
+import com.example.kotlinflows.ui.base.BaseActivity
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.transform
 import kotlinx.coroutines.runBlocking
 import timber.log.Timber

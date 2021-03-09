@@ -1,7 +1,9 @@
-package com.example.kotlinflows
+package com.example.kotlinflows.ui.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.kotlinflows.BuildConfig
+import com.example.kotlinflows.R
 import timber.log.Timber
 
 open class BaseActivity : AppCompatActivity() {

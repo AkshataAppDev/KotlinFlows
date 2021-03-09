@@ -1,6 +1,7 @@
-package com.example.kotlinflows
+package com.example.random
 
 import android.os.Bundle
+import com.example.kotlinflows.ui.base.BaseActivity
 import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.filter

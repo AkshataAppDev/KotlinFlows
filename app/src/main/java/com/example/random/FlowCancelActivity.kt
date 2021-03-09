@@ -1,12 +1,11 @@
-package com.example.kotlinflows
+package com.example.random
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import com.example.kotlinflows.ui.base.BaseActivity
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeoutOrNull
 import timber.log.Timber

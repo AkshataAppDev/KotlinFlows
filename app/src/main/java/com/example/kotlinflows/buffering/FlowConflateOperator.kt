@@ -1,6 +1,7 @@
-package com.example.kotlinflows
+package com.example.kotlinflows.buffering
 
 import android.os.Bundle
+import com.example.kotlinflows.ui.base.BaseActivity
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collect
