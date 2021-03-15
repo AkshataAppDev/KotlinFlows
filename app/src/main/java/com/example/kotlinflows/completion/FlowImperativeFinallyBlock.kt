@@ -18,7 +18,7 @@ class FlowImperativeFinallyBlock : BaseActivity() {
                 simple().collect { value ->
                     Timber.d("Value : $value")
                 }
-            } finally {  // use finally to execute an action on completion
+            } finally {  // use finally to execute an action on completion // IMPERATIVE
                 Timber.d("Inside finally")
             }
         }
